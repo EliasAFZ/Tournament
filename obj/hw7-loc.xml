@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>D:\College\Fall 2018\itec-320 (ADA)\HW7\hw7.gpr</vfs_file>
+    <file_marker column=" 29" line=" 14" >
+      <vfs_project>D:\College\Fall 2018\itec-320 (ADA)\HW7\hw7.gpr</vfs_project>
+      <vfs_file>D:\College\Fall 2018\itec-320 (ADA)\HW7\src\tournament.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 15" >
+      <vfs_project>D:\College\Fall 2018\itec-320 (ADA)\HW7\hw7.gpr</vfs_project>
+      <vfs_file>D:\College\Fall 2018\itec-320 (ADA)\HW7\src\queues.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 14" >
+      <vfs_project>D:\College\Fall 2018\itec-320 (ADA)\HW7\hw7.gpr</vfs_project>
+      <vfs_file>D:\College\Fall 2018\itec-320 (ADA)\HW7\src\stacks.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 20" >
+      <vfs_project>D:\College\Fall 2018\itec-320 (ADA)\HW7\hw7.gpr</vfs_project>
+      <vfs_file>D:\College\Fall 2018\itec-320 (ADA)\HW7\src\queues.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

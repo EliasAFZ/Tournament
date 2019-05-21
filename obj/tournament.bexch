@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__tournament.o
+[PROJECT FILES]
+D:\College\Fall 2018\itec-320 (ADA)\HW7\hw7.gpr
+20181205185934
+[BOUND OBJECT FILES]
+D:\College\Fall 2018\itec-320 (ADA)\HW7\obj\queues.o
+D:\College\Fall 2018\itec-320 (ADA)\HW7\obj\stacks.o
+D:\College\Fall 2018\itec-320 (ADA)\HW7\obj\tournament.o
+[GENERATED SOURCE FILES]
+b__tournament.ads
+b__tournament.adb
+b__tournament.ali
+[RESULTING OPTIONS]
+-LD:\College\Fall 2018\itec-320 (ADA)\HW7\obj\
+-LD:\College\Fall 2018\itec-320 (ADA)\HW7\obj\
+-LD:/ide/gps/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+D:/ide/gps/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

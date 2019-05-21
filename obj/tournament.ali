@@ -1,0 +1,219 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U tournament%b		tournament.adb		3cffa1d4 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.unbounded_io%s  a-tiunio.ads	a-tiunio.ali
+W queues%s		queues.adb		queues.ali
+W stacks%s		stacks.adb		stacks.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+Z unchecked_deallocation%s
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-charac.ads		20180524051736 2d3ec45b ada.characters%s
+D a-chlat1.ads		20180524051736 66457d31 ada.characters.latin_1%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-finali.ads		20180524051738 bf4f806b ada.finalization%s
+D a-inteio.ads		20180524051738 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-string.ads		20180524051736 90ac6797 ada.strings%s
+D a-strmap.ads		20180524051736 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20180524051738 8098c91f ada.strings.unbounded%s
+D a-suteio.ads		20180524051736 26d8e9aa ada.strings.unbounded.text_io%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-tiinio.ads		20180524051736 aa04e5d6 ada.text_io.integer_io%s
+D a-tiunio.ads		20180524051738 759c6b0c ada.text_io.unbounded_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D queues.ads		20181208215440 62f43308 queues%s
+D queues.adb		20181208215908 0f999901 queues%b
+D stacks.ads		20181208220650 3586cb46 stacks%s
+D stacks.adb		20181208220824 c3f76ad6 stacks%b
+D system.ads		20180524051738 32a08138 system%s
+D s-atocou.ads		20180524051738 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-finmas.ads		20180524051738 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524051738 4ff27390 system.finalization_root%s
+D s-memory.ads		20180524051736 597d6634 system.memory%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-pooglo.ads		20180524051736 ede33ef8 system.pool_global%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stalib.adb		20180524051736 f2fe2716 system.standard_library%b
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20180524051736 b16154c2 system.storage_pools%s
+D s-stposu.ads		20180524051736 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20180524051736 aedef97e system.stream_attributes%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D tournament.adb	20181209034616 869abc46 tournament%b
+D unchdeal.ads		20180524051738 214516a4 unchecked_deallocation%s
+X 1 ada.ads
+16K9*Ada 20e8 46|8r6 8r23 9r6 9r33 10r6 10r36 11r6 11r31 14r6 51r27
+X 2 a-charac.ads
+16K13*Characters 18e19 46|14r10 51r31
+X 3 a-chlat1.ads
+18K24*Latin_1 296e27 46|14w21 51r42
+63e4*Space{character} 46|51r50
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[15|46] 46|11w10 11r35
+X 9 a-string.ads
+16K13*Strings 35e16 46|9r10 9r37
+X 11 a-strunb.ads
+76K21*Unbounded 491e26 46|9w18 9r45
+79R9*Unbounded_String<5|43R9> 474e14 46|21r13 67r16
+94V13*To_Unbounded_String{79R9} 46|73s21
+100V13*To_String{string} 46|73s46
+X 14 a-textio.ads
+49K13*Text_IO 471e16 46|8w10 8r27 10r10 10r40
+169U14*Skip_Line 46|76s10
+184V13*End_Of_File{boolean} 46|71s17
+242U14*Put 46|39s7
+263U14*Put_Line 46|93s7
+X 15 a-tiinio.ads
+56U14*Get 46|74s10[6|18] 75s10[6|18]
+66U14*Put 46|34s7[6|18] 35s7[6|18] 36s7[6|18] 37s7[6|18] 38s7[6|18]
+X 16 a-tiunio.ads
+25K21*Unbounded_IO 61e29 46|10w18 10r48
+41U14*Put_Line=43:42 46|40s7
+57U14*Get_Line=59:42 46|72s10
+X 20 queues.ads
+4+9 ItemType 46|44r34
+5U19 print 46|44r57
+6k9*queues 41e11 46|12w6 44r26
+8R9 Queue 46|65r45[44] 84r36[44] 98r50[44] 99r30[44] 186r50[44] 187r30[44]
+. 187r62[44] 222r19[44] 223r18[44] 224r22[44]
+15V14 size{natural} 46|88s20[44] 191s17[44] 197s20[44] 197s50[44] 198s23[44]
+. 205s23[44] 213s20[44]
+17V14 front{46|29P9} 46|89s27[44] 103s25[44] 105s25[44] 192s27[44] 201s27[44]
+. 208s27[44] 214s30[44]
+19U14 enqueue 46|77s17[44] 112s17[44] 113s17[44] 118s17[44] 119s17[44] 126s20[44]
+. 127s20[44] 132s20[44] 133s20[44] 140s23[44] 141s23[44] 146s23[44] 147s23[44]
+. 154s26[44] 155s26[44] 160s26[44] 161s26[44] 168s29[44] 169s29[44] 175s29[44]
+. 176s29[44] 194s17[44] 203s17[44] 210s17[44] 216s20[44]
+20U14 dequeue 46|90s17[44] 104s14[44] 106s14[44] 193s17[44] 202s17[44] 209s17[44]
+. 215s20[44]
+X 22 stacks.ads
+4+9 ItemType 46|46r36
+5U19 print 46|46r59
+6k9*stacks 33e11 46|13w6 46r28
+8P9 Stack 46|85r23[46]
+15U14 push 46|91s19[46]
+21U14 print 46|94s16[46]
+X 24 system.ads
+67M9*Address
+X 31 s-memory.ads
+53V13*Alloc{24|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{24|67M9} 105i<c,__gnat_realloc>22
+X 38 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 46 tournament.adb
+16U11*Tournament 16b11 229l5 229t15
+19R9 player 26e14 29r29 77r29
+20i7 arrivalNumber{natural} 34r22 165r34 165r62 171r37 171r65
+21r7 name{11|79R9} 40r27
+22i7 skillLevel{natural} 36r22 109r22 109r47 115r25 115r50 121r25 121r50
+23i7 age{natural} 35r22 123r25 123r43 129r28 129r46 135r28 135r46
+24i7 wins{natural} 37r22 110m22 110r42 116m22 116r42 124m25 124r45 130m25
+. 130r45 137r28 137r47 138m28 138r48 143r31 143r50 144m28 144r48 149r31 149r50
+. 152m31 152r51 158m31 158r51 166m34 166r54 173m34 173r54
+25i7 losses{natural} 38r22 111m22 111r44 117m22 117r44 125m25 125r47 131m25
+. 131r47 139m28 139r50 145m28 145r50 151r31 151r52 153m31 153r53 157r34 157r55
+. 159m31 159r53 163r34 163r55 167m34 167r56 174m34 174r56
+29P9 playerPtr(19R9) 32r31 44r46 46r48 86r15 100r16 101r16 188r15
+32U14 printPly 32b14 32>23 41l8 41t16 44r66 46r68
+32p23 player{29P9} 34r11 35r11 36r11 37r11 38r11 40r16
+44K12 quePak[20|6] 45r8 77r10 88r13 89r20 90r10 103r18 104r7 105r18 106r7
+. 112r10 113r10 118r10 119r10 126r13 127r13 132r13 133r13 140r16 141r16 146r16
+. 147r16 154r19 155r19 160r19 161r19 168r22 169r22 175r22 176r22 191r10 192r20
+. 193r10 194r10 197r13 197r43 198r16 201r20 202r10 203r10 205r16 208r20 209r10
+. 210r10 213r13 214r23 215r13 216r13
+46K12 stackPak[22|6] 47r8 91r10 94r7
+50V13 Trim{string} 50b13 50>19 62l8 62t12 73s41
+50a19 s{string} 52r25 53r25 55r22 55r40 58r22 58r41 61r14
+51e7 space{character} 55r49 58r50
+52i7 lChar{natural} 55r14 55r42 56m10 56r32 61r16
+53i7 rChar{natural} 58r14 58r43 59m10 59r32 61r23
+65U14 getInput 65b14 65=23 81l8 81t16 226s4
+65r23 contenderLine{20|8R9[44]} 78m40
+66i7 arrivalNumber{natural} 77r37 79m10 79r27
+67r7 nameTmp{11|79R9} 72m19 73m10 73r56 77r52
+68i7 skillLevelTmp{natural} 74m14 77r61
+69i7 ageTmp{natural} 75m14 78r25
+84U14 printOutput 84b14 84=26 95l8 95t19 228s4
+84r26 q{20|8R9[44]} 88r25 89r33 90m25
+85p7 winnersOrdered{22|8P9[46]} 91m32 91r32 94r22
+86p7 tmpPtr{29P9} 89m10 91r24
+98U14 processBattle 98b14 98=28 98=57 183l8 183t21 199s13 206s13
+98r28 contenderLine{20|8R9[44]} 103r31 104m22 105r31 106m22 112m34 118m34
+. 126m37 132m37 140m40 146m40 154m43 160m43 168m46 175m46
+98r57 runnerUpLine{20|8R9[44]} 113m34 119m34 127m37 133m37 141m40 147m40
+. 155m43 161m43 169m46 176m46
+100p7 player1{29P9} 103m7 109r10 110r10 110r30 112r25 115r13 117r10 117r32
+. 119r25 121r13 123r13 124r13 124r33 126r28 129r16 131r13 131r35 133r28 135r16
+. 137r16 138r16 138r36 140r31 143r19 145r16 145r38 147r31 149r19 151r19 152r19
+. 152r39 154r34 157r22 159r19 159r41 161r34 163r22 165r22 166r22 166r42 168r37
+. 171r25 174r22 174r44 176r37
+101p7 player2{29P9} 105m7 109r35 111r10 111r32 113r25 115r38 116r10 116r30
+. 118r25 121r38 123r31 125r13 125r35 127r28 129r34 130r13 130r33 132r28 135r34
+. 137r35 139r16 139r38 141r31 143r38 144r16 144r36 146r31 149r38 151r40 153r19
+. 153r41 155r34 157r43 158r19 158r39 160r34 163r43 165r50 167r22 167r44 169r37
+. 171r53 173r22 173r42 175r37
+186U14 processWinner 186b14 186=28 186=57 187=37 219l8 219t21 227s4
+186r28 contenderLine{20|8R9[44]} 191r22 192r33 193m25 197r25 198r28 199m27
+. 201r33 202m25 206m41 213r25 214r36 215m28
+186r57 runnerUpLine{20|8R9[44]} 199m42 205r28 206m27 208r33 209m25
+187r37 winnersUnordered{20|8R9[44]} 194m33 197r55 203m33 210m33 216m36
+188p7 winner{29P9} 192m10 194r25 201m10 203r25 208m10 210r25 214m13 216r28
+222r4 contenderLine{20|8R9[44]} 226m13 226r13 227m18 227r18
+223r4 runnerUpLine{20|8R9[44]} 227m33 227r33
+224r4 winnersUnOrdered{20|8R9[44]} 227m47 227r47 228m16 228r16
+

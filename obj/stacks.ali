@@ -1,0 +1,89 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U stacks%b		stacks.adb		5f29046e NE OO PK GE IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W unchecked_deallocation%s
+
+U stacks%s		stacks.ads		3586cb46 BN EE NE OO PK GE IL
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D stacks.ads		20181208220650 3586cb46 stacks%s
+D stacks.adb		20181208220824 c3f76ad6 stacks%b
+D system.ads		20180524051738 32a08138 system%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D unchdeal.ads		20180524051738 214516a4 unchecked_deallocation%s
+X 1 ada.ads
+16K9*Ada 20e8 11|1r6 1r23
+X 6 a-textio.ads
+49K13*Text_IO 471e16 11|1w10 1r27
+X 10 stacks.ads
+4+9 ItemType 5r32 15r25 19r34 29r13 11|23r25 39r34
+5U19 print 5>25 11|48s10
+5*25 item{4+9}
+6k9*stacks 4z9 5z19 24E9 33l5 33e11 11|4b14 52l5 52t11
+8P9*Stack 12r25 13r24 15r46 16r29 19r20 21r27 26c9 30r13 11|6r79 8r26 13r25
+. 14r15 23r45 24r20 34r28 39r20 44r26 45r17
+10X4*Stack_Empty
+10X17*Stack_Full
+12V13*is_Empty{boolean} 12>22 11|8b14 11l8 11t16
+12p22 S{8P9} 11|8b23 10r14
+13V13*is_Full{boolean} 13>21 11|13b13 21l8 21t15
+13p21 S{8P9} 11|13b22
+15U14*push 15>19 15=35 11|23b14 32l8 32t12
+15*19 Item{4+9} 11|23b19 24r44
+15p35 S{8P9} 11|23b35 26r10 27m10 29r34 30m10
+16U14*pop 16=18 11|34b14 37l8 37t11
+16p18 S{8P9} 11|34b18 36m7 36r11
+19V13*top{4+9} 19>17 11|39b13 42l8 42t11
+19p17 S{8P9} 11|39b17 41r14
+21U14*print 21>20 11|44b14 51l8 51t13
+21p20 S{8P9} 11|44b20 45r26
+24R9 StackNode 26r25 28c9 31e14 11|6r60 16r21 24r33
+29*7 Item{4+9} 11|41r20 48r29
+30p7 Next{8P9} 11|29m26 36r17 49r35
+X 11 stacks.adb
+6U14 free[25|20] 17s7
+14p7 tmpPtr{10|8P9} 16m7 17m12 17r12
+24p7 newStackTop{10|8P9} 27r15 29r10 30r15
+45p7 tmpStack{10|8P9} 47r13 48r16 49m10 49r22
+X 25 unchdeal.ads
+17+9 Object 11|6r50
+18P9 Name(17+9) 11|6r71
+20u11*Unchecked_Deallocation 11|2w6 6r26
+

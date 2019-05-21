@@ -1,0 +1,96 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U queues%b		queues.adb		c4350ff7 NE OO PK GE IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W unchecked_deallocation%s
+
+U queues%s		queues.ads		62f43308 BN EE NE OO PK GE IL
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D queues.ads		20181208215440 62f43308 queues%s
+D queues.adb		20181208215908 0f999901 queues%b
+D system.ads		20180524051738 32a08138 system%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D unchdeal.ads		20180524051738 214516a4 unchecked_deallocation%s
+X 1 ada.ads
+16K9*Ada 20e8 11|1r6 1r23
+X 6 a-textio.ads
+49K13*Text_IO 471e16 11|1w10 1r27
+X 10 queues.ads
+4+9 ItemType 5r32 17r37 19r29 31r13 11|18r36 34r29
+5U19 print 5>25 11|51s10
+5*25 item{4+9}
+6k9*queues 4z9 5z19 26E9 41l5 41e11 11|4b14 65l5 65t11
+8R9*Queue 12r26 13r25 15r22 17r23 19r49 20r33 22r27 35c9 39e14 11|8r25 13r21
+. 18r22 23r25 34r49 47r26 56r33
+10X4*Queue_Empty 11|59r16
+10X17*Queue_Full
+12V14*is_Empty{boolean} 12>23 11|8b13 11l8 11t16 58s10
+12r23 Q{8R9} 11|8b22 10r14
+13V14*is_Full{boolean} 13>22 11|23b14 32l8 32t15
+13r22 Q{8R9} 11|23b22
+15V14*size{natural} 15>19 11|13b13 16l8 16t12
+15r19 Q{8R9} 11|13b18 15r14
+17V14*front{4+9} 17>20 11|18b13 21l8 21t13
+17r20 Q{8R9} 11|18b19 20r14
+19U14*enqueue 19>23 19=39 11|34b14 45l8 45t15
+19*23 Item{4+9} 11|34b23 37r35 41r44
+19r39 Q{8R9} 11|34b39 36r10 36r27 37m10 38m10 38r21 39m10 39r21 41r10 42m10
+. 42r20 43m10 43r21
+20U14*dequeue 20=23 11|56b14 64l8 64t15
+20r23 Q{8R9} 11|56b23 58r19 61m10 61r21 62m10 62r21
+22U14*print 22>20 11|47b14 54l8 54t13
+22r20 Q{8R9} 11|47b20 48r35
+26R9 QueueNode 28r36 30c9 33e14 11|6r60 26r21 37r24 41r33
+28P9 QueueNodePointer(26R9) 32r13 36r14 37r13 11|6r79 24r17 48r15
+31*7 Data{4+9} 11|20r26 51r27
+32p7 Next{28P9} 11|41m21 42r31 52r31 61r33
+36p7 Front{28P9} 11|20r16 36r29 38m12 48r37 61m12 61r23
+37p7 Back{28P9} 11|36r12 37m12 38r23 41r12 42m12 42r22
+38i7 Count{natural} 11|10r16 15r16 39m12 39r23 43m12 43r23 62m12 62r23
+X 11 queues.adb
+6U14 free[25|20] 27s9
+24p8 tmpPtr{10|28P9} 26m7 27m14 27r14
+48p7 tmpPtr{10|28P9} 50r14 51r16 52m10 52r20
+X 25 unchdeal.ads
+17+9 Object 11|6r50
+18P9 Name(17+9) 11|6r71
+20u11*Unchecked_Deallocation 11|2w6 6r26
+
